@@ -3,4 +3,3 @@ dist/
 release/
 *.data
 *.vscode
-package.json
