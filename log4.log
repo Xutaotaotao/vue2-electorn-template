@@ -1,0 +1,25 @@
+[2023-12-06T13:56:32.806] [INFO] default - Checking for update
+[2023-12-06T13:56:32.811] [INFO] default - Checking for update (already in progress)
+[2023-12-06T13:56:33.947] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-06T13:56:33.948] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-06T13:56:57.518] [INFO] default - Checking for update
+[2023-12-06T13:56:57.521] [INFO] default - Checking for update (already in progress)
+[2023-12-06T13:56:58.531] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-06T13:56:58.532] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-06T13:58:15.411] [INFO] default - Checking for update
+[2023-12-06T13:58:15.413] [INFO] default - Checking for update (already in progress)
+[2023-12-06T13:58:16.204] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-06T13:58:16.204] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-06T14:14:13.090] [INFO] default - Checking for update
+[2023-12-06T14:14:13.095] [INFO] default - Checking for update (already in progress)
+[2023-12-06T14:14:14.148] [INFO] default - Generated new staging user ID: 98d4dcf7-d601-5c83-8295-2a8b1fc1986d
+[2023-12-06T14:14:14.191] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-06T14:14:14.192] [INFO] default - printUpdaterMessage 更新出错
