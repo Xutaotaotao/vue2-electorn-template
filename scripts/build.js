@@ -11,7 +11,7 @@ const packagesConfigs = [
   resolve(__dirname, '../vite/main.js'),
   resolve(__dirname, '../vite/preload.js'),
   resolve(__dirname, '../vite/render.js'),
-  // resolve(__dirname, '../vite/work.js'),
+  resolve(__dirname, '../vite/webview.js'),
 ]
 
 
@@ -45,8 +45,8 @@ const buildByConfig = (configFile) => build({ configFile, mode })
       if(packageConfigPath.includes('preload')) {
         process.env.VITE_CURRENT_RUN_MODE = 'preload'
       }
-      if(packageConfigPath.includes('work')) {
-        process.env.VITE_CURRENT_RUN_MODE = 'work'
+      if(packageConfigPath.includes('webview')) {
+        process.env.VITE_CURRENT_RUN_MODE = 'webview'
       }
       const consoleGroupName = `${dirname(packageConfigPath)}/`
       console.group(consoleGroupName)

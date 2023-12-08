@@ -52,12 +52,12 @@ const preloadDev = {
 };
 
 
-const workDev = {
+const webviewDev = {
   async createRenderServer(viteDevServer) {
     process.env.VITE_CURRENT_RUN_MODE = "work";
     const options = {
       ...sharedOptions,
-      configFile: path.resolve(__dirname, "../vite/work.js"),
+      configFile: path.resolve(__dirname, "../vite/webview.js"),
     };
     return build({
       ...options,
@@ -128,7 +128,7 @@ const initDev = async () => {
   try {
     const renderDevServer = await renderDev.createRenderServer();
     await preloadDev.createRenderServer(renderDevServer);
-    // await workDev.createRenderServer(renderDevServer);
+    await webviewDev.createRenderServer(renderDevServer);
     await mainDev.createMainServer(renderDevServer);
   } catch (err) {
     console.error(err);

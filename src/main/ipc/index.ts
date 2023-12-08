@@ -65,4 +65,8 @@ export const initIpc = (mainWindow: any, workWindow: any) => {
   ipcMain.handle('openDevTool',() => {
     openDevTool()
   })
+
+  ipcMain.on('webView',(e,data) => {
+    mainWindow.webContents.send("webview", data);
+  })
 };

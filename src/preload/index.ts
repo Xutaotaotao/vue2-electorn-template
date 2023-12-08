@@ -66,6 +66,12 @@ export const loginOutFromWork = () => {
   ipcRenderer.invoke("loginOutFromWork");
 }
 
+const onMsgFromWebview = (callback:any) => {
+  ipcRenderer.on('webview',(e,data) => {
+    callback(data)
+  })
+}
+
 contextBridge.exposeInMainWorld("nativeBridge", {
   openUrlByDefaultBrowser,
   communicateWithEachOtherSendMsg,
@@ -83,7 +89,8 @@ contextBridge.exposeInMainWorld("nativeBridge", {
   writeDbData,
   unauthorizedFetch,
   onLoginOutFromMain,
-  openDevTool
+  openDevTool,
+  onMsgFromWebview
 });
 
 ipcRenderer.on("communicateWithEachOtherReply", (_event, arg) => {
