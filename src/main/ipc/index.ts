@@ -70,3 +70,4 @@ export const initIpc = (mainWindow: any, workWindow: any) => {
     mainWindow.webContents.send("webview", data);
   })
 };
+

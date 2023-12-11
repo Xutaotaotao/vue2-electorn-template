@@ -90,7 +90,7 @@ contextBridge.exposeInMainWorld("nativeBridge", {
   unauthorizedFetch,
   onLoginOutFromMain,
   openDevTool,
-  onMsgFromWebview
+  onMsgFromWebview,
 });
 
 ipcRenderer.on("communicateWithEachOtherReply", (_event, arg) => {

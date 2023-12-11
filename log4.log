@@ -125,3 +125,39 @@
     at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
     at SimpleURLLoaderWrapper.emit (node:events:394:28)
 [2023-12-08T11:20:48.459] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-11T19:45:39.133] [INFO] default - Checking for update
+[2023-12-11T19:45:39.138] [INFO] default - Checking for update (already in progress)
+[2023-12-11T19:45:39.882] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-11T19:45:39.883] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-11T19:46:14.266] [INFO] default - Checking for update
+[2023-12-11T19:46:14.268] [INFO] default - Checking for update (already in progress)
+[2023-12-11T19:46:15.180] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-11T19:46:15.181] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-11T19:52:29.559] [INFO] default - Checking for update
+[2023-12-11T19:52:29.561] [INFO] default - Checking for update (already in progress)
+[2023-12-11T19:52:30.309] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-11T19:52:30.310] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-11T20:01:19.484] [INFO] default - Checking for update
+[2023-12-11T20:01:19.486] [INFO] default - Checking for update (already in progress)
+[2023-12-11T20:01:20.299] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-11T20:01:20.299] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-11T20:09:35.600] [INFO] default - Checking for update
+[2023-12-11T20:09:35.603] [INFO] default - Checking for update (already in progress)
+[2023-12-11T20:09:36.811] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-11T20:09:36.812] [INFO] default - printUpdaterMessage 更新出错
+[2023-12-11T20:09:38.835] [INFO] default - Checking for update
+[2023-12-11T20:09:38.838] [INFO] default - Checking for update (already in progress)
+[2023-12-11T20:09:39.733] [ERROR] default - Error: Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+[2023-12-11T20:09:39.733] [INFO] default - printUpdaterMessage 更新出错
